@@ -7,5 +7,200 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAbk1pG4kuOUedYKsUDxijQgAAAAACAAAAAAADZgAAwAAAABAAAABcjNDHvTsQVbhO02xVBd2cAAAAAASAAACgAAAAEAAAAFbM9QGFz47ofl3naP9yDz2AAAAAf5JKZUcwgGX3/jedFIn/oy0p8uZj4VnuyO2m9SrfNbuyVHdGsfk/uVD9ktn7DEjrfT1+3GpGcEgYLmGcARyMchXbcxgoqh6Hg84V1kxqft4c6WOUGXTwhBM1MmaYz2qbcig68WlKdS/U0RL2C/fX5ODtgkJFDVYvV6jB9I5/oD8UAAAALSIlsbG6j4Fn7X4HGpybzzpj77g=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://waws-prod-sy3-025.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>09/05/2018 08:28:03</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>09/05/2018 08:28:03</publishTime>
+    </File>
+    <File Include="bin/ar/Microsoft.Bot.Builder.resources.dll">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/Autofac.dll">
+      <publishTime>05/09/2018 11:57:54</publishTime>
+    </File>
+    <File Include="bin/Bot Application.dll">
+      <publishTime>09/05/2018 08:27:58</publishTime>
+    </File>
+    <File Include="bin/Bot Application.pdb">
+      <publishTime>09/05/2018 08:27:58</publishTime>
+    </File>
+    <File Include="bin/Chronic.dll">
+      <publishTime>05/09/2016 10:16:50</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.Bot.Builder.resources.dll">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/de-dE/Microsoft.Bot.Builder.resources.dll">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Spatial.resources.dll">
+      <publishTime>05/03/2017 15:31:12</publishTime>
+    </File>
+    <File Include="bin/el/Microsoft.Bot.Builder.resources.dll">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/en/Microsoft.Bot.Builder.resources.dll">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Bot.Builder.resources.dll">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Spatial.resources.dll">
+      <publishTime>05/03/2017 15:31:12</publishTime>
+    </File>
+    <File Include="bin/fa/Microsoft.Bot.Builder.resources.dll">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Bot.Builder.resources.dll">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Spatial.resources.dll">
+      <publishTime>05/03/2017 15:31:12</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Bot.Builder.resources.dll">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Spatial.resources.dll">
+      <publishTime>05/03/2017 15:31:12</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Bot.Builder.resources.dll">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Spatial.resources.dll">
+      <publishTime>05/03/2017 15:31:12</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Spatial.resources.dll">
+      <publishTime>05/03/2017 15:31:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Azure.Search.Common.dll">
+      <publishTime>07/31/2018 20:42:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Azure.Search.Data.dll">
+      <publishTime>07/31/2018 22:05:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Azure.Search.dll">
+      <publishTime>07/31/2018 22:43:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Azure.Search.Service.dll">
+      <publishTime>07/31/2018 21:34:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Bot.Builder.Autofac.dll">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Bot.Builder.Autofac.pdb">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Bot.Builder.dll">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Bot.Builder.pdb">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Bot.Connector.dll">
+      <publishTime>06/29/2018 01:43:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>06/19/2018 03:41:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.JsonWebTokens.pdb">
+      <publishTime>06/19/2018 03:35:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Logging.dll">
+      <publishTime>06/19/2018 03:42:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Logging.pdb">
+      <publishTime>06/19/2018 03:35:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Protocol.Extensions.dll">
+      <publishTime>03/06/2017 16:09:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>06/19/2018 03:43:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>06/19/2018 03:49:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Protocols.OpenIdConnect.pdb">
+      <publishTime>06/19/2018 03:35:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Protocols.pdb">
+      <publishTime>06/19/2018 03:35:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>06/19/2018 03:46:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Tokens.pdb">
+      <publishTime>06/19/2018 03:35:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Rest.ClientRuntime.Azure.dll">
+      <publishTime>07/19/2018 21:10:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Rest.ClientRuntime.dll">
+      <publishTime>08/17/2018 17:50:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Spatial.dll">
+      <publishTime>05/03/2017 15:31:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WindowsAzure.Configuration.dll">
+      <publishTime>10/25/2016 10:48:08</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/24/2018 17:44:14</publishTime>
+    </File>
+    <File Include="bin/nl/Microsoft.Bot.Builder.resources.dll">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.Bot.Builder.resources.dll">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Bot.Builder.resources.dll">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Spatial.resources.dll">
+      <publishTime>05/03/2017 15:31:12</publishTime>
+    </File>
+    <File Include="bin/System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>06/19/2018 03:39:58</publishTime>
+    </File>
+    <File Include="bin/System.IdentityModel.Tokens.Jwt.pdb">
+      <publishTime>06/19/2018 03:35:38</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>05/10/2018 22:38:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>05/10/2018 22:39:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>05/10/2018 22:41:08</publishTime>
+    </File>
+    <File Include="bin/zh-hans/Microsoft.Bot.Builder.resources.dll">
+      <publishTime>06/29/2018 01:43:36</publishTime>
+    </File>
+    <File Include="bin/zh-hans/Microsoft.Spatial.resources.dll">
+      <publishTime>05/03/2017 15:31:12</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Spatial.resources.dll">
+      <publishTime>05/03/2017 15:31:12</publishTime>
+    </File>
+    <File Include="default.htm">
+      <publishTime>08/21/2018 14:36:29</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/21/2018 14:36:29</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/21/2018 14:45:36</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>09/05/2018 08:28:00</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/05/2018 08:27:59</publishTime>
+    </File>
+  </ItemGroup>
 </Project>

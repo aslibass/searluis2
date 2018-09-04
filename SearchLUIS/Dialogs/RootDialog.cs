@@ -20,7 +20,7 @@ namespace SearchLUIS.Dialogs
 
         public async Task Hello(IDialogContext context, IActivity activity)
         {
-            await context.PostAsync("Hello from RegEx!  I am a Photo Organization Bot.  I can search your photos, share your photos on Twitter, and order prints of your photos.  You can ask me things like 'find pictures of food'.");
+            await context.PostAsync("Hello from RegEx!  I am a API Bot.  I can search for store info and answer faqs'.");
         }
 
         [LuisIntent("Help")]
@@ -78,10 +78,10 @@ namespace SearchLUIS.Dialogs
                 //Set the encoding to UTF8
                 client.Encoding = System.Text.Encoding.UTF8;
                 //Add the subscription key header
-                client.Headers.Add("Ocp-Apim-Subscription-Key", "c8a4ba64b5b74f2381e2290345b66c76");
+                client.Headers.Add("Ocp-Apim-Subscription-Key", "7ab9a4eb-fb57-4476-9b7d-4b41ef4a0cd2");
                 client.Headers.Add("Content-Type", "application/json");
                 var answer = JsonConvert.DeserializeObject<QnAMakerResult>(
-                    client.UploadString("https://westus.api.cognitive.microsoft.com/qnamaker/v2.0/knowledgebases/1099b8be-bda7-4ca3-a2b8-fe7da9314f58/generateAnswer", postBody));
+                    client.UploadString("https://vjqna.azurewebsites.net/qnamaker/knowledgebases/f26b640c-e49f-474a-a299-7ac23deb1266/generateAnswer", postBody));
                 if (answer.answers.FirstOrDefault().score > 0.2)
                 {
                     string response = answer.answers.FirstOrDefault().answer;
